@@ -1,0 +1,82 @@
+/* ----- HEADER -----  */
+
+.container{
+    width: 800px;
+    height: 500px;
+    background: #BCC9AC;
+    border-radius: 16px;
+    display: flex;
+    margin: 10% auto;
+    justify-content: space-between;
+}
+.text-card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px;
+}
+.img-ct{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.img-ct img{
+    height: 300px;
+    border-radius: 16px;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    width: 70px;
+    height: 180px;
+}
+
+h2{
+    color: white;
+    font-size: 18px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+.sites {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.squarespace{
+    padding: 16px;
+}
+
+.linkedin{
+    padding: 16px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+
+p{
+    padding: 10px;
+}
+.mail{
+    padding: 16px;
+}
+
+i.fab{
+    font-size: 25px;
+}
+
